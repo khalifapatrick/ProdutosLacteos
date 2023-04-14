@@ -18,6 +18,15 @@ public abstract class Queijo {
 		return raio;
 	}	
 
+	
+
+	public float getPrecoBase() {
+		return precoBase;
+	}
+
+	public float getPrecoUnitario() {
+		return precoUnitario;
+	}
 
 	public abstract float volume();
 	
